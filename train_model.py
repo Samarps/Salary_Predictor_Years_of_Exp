@@ -11,9 +11,9 @@ y = db["Salary"]
 from sklearn.linear_model import LinearRegression
 model = LinearRegression()
 model.fit(x,y)
-print("Model created...")
+print("Model trained...")
 
 # Saving model
 import joblib
 joblib.dump(model, "trainedmodel.pkl")
-print("Model trained...")
+print("Model saved...")
