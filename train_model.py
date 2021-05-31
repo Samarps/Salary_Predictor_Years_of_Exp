@@ -15,5 +15,5 @@ print("Model created...")
 
 # Saving model
 import joblib
-joblib.dump(model, "trainedmodel.pk1")
+joblib.dump(model, "trainedmodel.pkl")
 print("Model trained...")

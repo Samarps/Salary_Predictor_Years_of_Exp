@@ -1,6 +1,6 @@
 # Loading trained model
 import joblib
-m = joblib.load("trainedmodel.pk1")
+m = joblib.load("trainedmodel.pkl")
 print("Trained model loaded...\n")
 
 # Prediction
